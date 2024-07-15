@@ -16,9 +16,10 @@ class BookService:
         self.df_file = os.path.join(settings.DATA_DIR, "books_df.pkl")
         
         # Downloading necessary NLTK data for NLP preprocessing
-        nltk.download('punkt')
-        nltk.download('stopwords')
-        nltk.download('wordnet')
+        if not os.path.exists(os.path.join(nltk.data.find('corpora'), 'stopwords')):
+            nltk.download('punkt')
+            nltk.download('stopwords')
+            nltk.download('wordnet')
         
         self.stop_words = set(stopwords.words('english'))
         self.lemmatizer = WordNetLemmatizer()
