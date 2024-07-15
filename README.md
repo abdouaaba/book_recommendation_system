@@ -2,6 +2,19 @@
 
 This project implements a book recommendation system based on book descriptions using OpenAI API for processing and Langchain for managing the processing pipeline.
 
+## Table of Contents
+
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Architecture](#architecture)
+- [Processing Flow](#processing-flow)
+- [Deployment](#deployment)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Testing](#testing)
+- [Evaluation](#evaluation)
+- [Documentation](#documentation)
+
 ## Features
 
 - Collects book data from Google Books API
@@ -10,6 +23,15 @@ This project implements a book recommendation system based on book descriptions 
 - Creates a processing chain using Langchain
 - Recommends books based on similarity of embeddings
 - Provides two recommendation methods: FAISS and Cosine Similarity
+
+
+## Tech Stack
+
+- Python
+- FastAPI
+- Langchain
+- OpenAI API
+- FAISS (Facebook AI Similarity Search)
 
 ## Architecture
 
@@ -39,6 +61,14 @@ The processing flow of the Book Recommendation System involves several key steps
 5. **User Interaction**:
    - Users interact with the system through two main API endpoints, providing a description and number of recommendations then receiving book recommendations in return.
    - The endpoints are defined in [`app/api/endpoints.py`](app/api/endpoints.py) and handle the logic for FAISS-based and Cosine Similarity-based recommendations.
+
+## Deployment
+
+The book recommendation API is deployed on Render. You can access and use the API through the following link:
+
+[Book Recommendation API](https://book-recommendation-system-opy8.onrender.com)
+
+Please refer to the API documentation for details on how to use the endpoints to get book recommendations.
 
 ## Setup
 
