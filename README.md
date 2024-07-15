@@ -9,7 +9,8 @@ This project implements a book recommendation system based on book descriptions 
 - [Architecture](#architecture)
 - [Processing Flow](#processing-flow)
 - [Deployment](#deployment)
-- [Setup](#setup)
+- [Simple Interface for Usage](#simple-interface-for-usage)
+- [Local Setup](#local-setup)
 - [Usage](#usage)
 - [Testing](#testing)
 - [Evaluation](#evaluation)
@@ -70,7 +71,15 @@ The book recommendation API is deployed on Render. You can access and use the AP
 
 Please refer to the API documentation for details on how to use the endpoints to get book recommendations.
 
-## Setup
+## Simple Interface for Usage
+
+In addition to the API, a simple web interface has been deployed to facilitate the use of the book recommendation system. This interface allows users to easily input their book description queries and receive recommendations directly through a user-friendly web page.
+
+You can access the interface here: [Book Recommendation System Interface]()
+
+This interface interacts with the deployed API mentioned earlier, providing a seamless experience for obtaining book recommendations.
+
+## Local Setup
 
 1. Clone the repository:
    ```
@@ -101,6 +110,8 @@ Please refer to the API documentation for details on how to use the endpoints to
    ```
    uvicorn app.main:app --host 0.0.0.0 --port 8000
    ```
+
+6. Use and test API endpoints in `http://localhost:8000/docs`, CLI or other tools like Postman.
 
 ## Usage
 
@@ -142,3 +153,4 @@ python scripts/evaluation.py
 
 - API documentation: See [`docs/api.md`](docs/api.md)
 - System architecture: See [`docs/architecture.md`](docs/architecture.md)
+- Swagger API Documentation: See `http://localhost:8000/docs` or Visit [`Hosted Swagger API Documentation`](https://book-recommendation-system-opy8.onrender.com/docs)
