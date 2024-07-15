@@ -13,7 +13,7 @@ This project implements a book recommendation system based on book descriptions 
 
 ## Architecture
 
-The architecture of the book recommendation system is outlined in the `architecture.md` file. Below is an overview of the system components and their interactions.
+The architecture of the book recommendation system is outlined in the [`architecture.md`](docs/architecture.md) file. Below is an overview of the system components and their interactions.
 
 ![Architecture Diagram](architecture.png)
 
@@ -38,13 +38,13 @@ The processing flow of the Book Recommendation System involves several key steps
 
 5. **User Interaction**:
    - Users interact with the system through two main API endpoints, providing a description and number of recommendations then receiving book recommendations in return.
-   - The endpoints are defined in `app/api/endpoints.py` and handle the logic for FAISS-based and Cosine Similarity-based recommendations.
+   - The endpoints are defined in [`app/api/endpoints.py`](app/api/endpoints.py) and handle the logic for FAISS-based and Cosine Similarity-based recommendations.
 
 ## Setup
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/book-recommendation-system.git
+   git clone https://github.com/abdouaaba/book-recommendation-system.git
    cd book-recommendation-system
    ```
 
@@ -110,5 +110,5 @@ python scripts/evaluation.py
 
 ## Documentation
 
-- API documentation: See `docs/api.md`
-- System architecture: See `docs/architecture.md`
+- API documentation: See [`docs/api.md`](docs/api.md)
+- System architecture: See [`docs/architecture.md`](docs/architecture.md)
