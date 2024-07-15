@@ -85,8 +85,8 @@ This interface interacts with the deployed API mentioned earlier, providing a se
 
 1. Clone the repository:
    ```
-   git clone https://github.com/abdouaaba/book-recommendation-system.git
-   cd book-recommendation-system
+   git clone https://github.com/abdouaaba/book_recommendation_system.git
+   cd book_recommendation_system
    ```
 
 2. Create a virtual environment and install dependencies:
