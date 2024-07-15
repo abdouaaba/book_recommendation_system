@@ -29,6 +29,7 @@ You can find the full documentation of the API at: `http://localhost:8000/docs` 
 {
   "recommendations": [
     {
+      "id": "string",
       "title": "string",
       "authors": ["string"],
       "description": "string",
@@ -59,6 +60,7 @@ You can find the full documentation of the API at: `http://localhost:8000/docs` 
 {
   "recommendations": [
     {
+      "id": "string",
       "title": "string",
       "authors": ["string"],
       "description": "string",
