@@ -71,7 +71,7 @@ The book recommendation API is deployed on Render. You can access and use the AP
 
 Please refer to the API documentation for details on how to use the endpoints to get book recommendations.
 
-   note: Deployed on free plan with limited resources, so might get some errors because of memory exceeding
+   **_Note_: API is deployed on a free plan with limited resources, so shut downs due to inactivity or memory limit exceeding might happen causing latency**
 
 ## Simple Interface for Usage
 
