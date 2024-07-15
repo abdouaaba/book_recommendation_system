@@ -2,7 +2,7 @@
 
 ## Base URL
 
-All endpoints are relative to the base URL: `http://localhost:8000/v1/api`
+All endpoints are relative to the base URL: `http://localhost:8000/api/v1`
 
 ## API Documentation URL
 

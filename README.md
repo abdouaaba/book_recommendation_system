@@ -78,7 +78,7 @@ The API provides two endpoints for book recommendations:
 
 1. FAISS-based recommendations:
    ```
-   POST /v1/api/recommend/faiss
+   POST /api/v1/recommend/faiss
    {
      "description": "A thrilling adventure in space",
      "num_recommendations": 3
@@ -87,7 +87,7 @@ The API provides two endpoints for book recommendations:
 
 2. Cosine Similarity-based recommendations:
    ```
-   POST /v1/api/recommend/cosine
+   POST /api/v1/recommend/cosine
    {
      "description": "A book about comedy",
      "num_recommendations": 5
