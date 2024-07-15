@@ -71,11 +71,13 @@ The book recommendation API is deployed on Render. You can access and use the AP
 
 Please refer to the API documentation for details on how to use the endpoints to get book recommendations.
 
+   note: Deployed on free plan with limited resources, so might get some errors because of memory exceeding
+
 ## Simple Interface for Usage
 
 In addition to the API, a simple web interface has been deployed to facilitate the use of the book recommendation system. This interface allows users to easily input their book description queries and receive recommendations directly through a user-friendly web page.
 
-You can access the interface here: [Book Recommendation System Interface]()
+You can access the interface here: [Book Recommendation System Interface](https://book-recommendation-system-sigma.vercel.app/)
 
 This interface interacts with the deployed API mentioned earlier, providing a seamless experience for obtaining book recommendations.
 
